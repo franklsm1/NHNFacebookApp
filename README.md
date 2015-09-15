@@ -26,17 +26,6 @@ along with the bootstrap blog template was combined to create the application.
    The value given from the URL is the token which will last 60 days before needing
    to renew it (takes less then a minute once you have the APP_ID and APP_SECRET).
 * Plug both the group ID and the token into app.js and your app should run.
-
-* Setting up to run locally:
-   To run the code locally there are three sections that need to be uncommented.
-       1.) In app.js uncomment the *** section noted and then comment out the
-           last app.listen function that is currently being used.
-       2.) In useFBData.js uncomment the *** section then comment out the
-           following two lines.
-       3.) In useEventsFBData.js uncomment the *** section then comment out the
-           following two lines.
-   Then run a "node app.js" command in the cmd prompt from the directory app.js
-   resides and the app will then be running on localhost:3000
      
 # Files
 

@@ -25,11 +25,11 @@ var appEnv = cfenv.getAppEnv();
 var fb = require("./facebook");
 
 //Notes in README.md on how to retrieve the  group token
-var token = '<group_token>';
+var token = '<GROUP_TOKEN>';
 
 //The group ID value is retrieved from the home page of the Facebook group
-//example: https://www.facebook.com/groups/<group ID value>
-var groupID = '<group_ID_value>';
+//example: https://www.facebook.com/groups/<GROUP_ID>
+var groupID = '<GROUP_ID>';
 var FeedPath = '/' + groupID + '/feed?';
 var InfoPath = '/' + groupID + '/?fields=description&';
 var EventPath = '/' + groupID + '/events?fields=name,start_time,location,owner,description&';
@@ -57,16 +57,6 @@ app.get('/events', function(req, res){
 });
   
 });
-
-//***Used for testing locally (need to uncomment useFBData.js and useEventsFBData.js as well)//
-//var server = app.listen(3000, function () {
-
-  //var host = server.address().address;
-  //var port = server.address().port;
-
-  //console.log('Example app listening at http://%s:%s', host, port);
-//});
-//***
 
 // start server on the specified port and binding host
 app.listen(appEnv.port, appEnv.bind, function() {

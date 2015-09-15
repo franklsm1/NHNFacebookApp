@@ -7,11 +7,9 @@ function httpGet(theUrl)
 }
 
 window.onload = function() {
-        //***Used for testing locally
-        //var eventsGet = httpGet('http://localhost:3000/events');
-        //var infoGet = httpGet('http://localhost:3000/info');
-        var eventsGet = httpGet('http://nhnfb.mybluemix.net/events');
-        var infoGet = httpGet('http://nhnfb.mybluemix.net/info');
+        var eventsGet = httpGet('/events');
+        var infoGet = httpGet('/info');
+        var info = JSON.parse(infoGet);
         var events = JSON.parse(eventsGet);
         
         //make div objects
