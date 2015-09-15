@@ -6,11 +6,11 @@ along with the bootstrap blog template was combined to create the application.
 
 # Changes needed to get the app running locally
 
-Need to get your Facebook Group's ID:
+* Need to get your Facebook Group's ID:
    The group ID value is retrieved from the home page of the Facebook group
    example: https://www.facebook.com/groups/<group ID value>
    
-Need to get the Facebook Group Token:
+* Need to get the Facebook Group Token:
    The Facebook group token is retrieved after creating an app within Facebook itself
    and then getting a personal token. To create the Facebook app go to
    https://developers.facebook.com/ , click my apps -> new app and fill out the form
@@ -25,9 +25,9 @@ Need to get the Facebook Group Token:
   
    The value given from the URL is the token which will last 60 days before needing
    to renew it (takes less then a minute once you have the APP_ID and APP_SECRET).
-Plug both the group ID and the token into app.js and your app should run.
+* Plug both the group ID and the token into app.js and your app should run.
 
-Setting up to run locally:
+* Setting up to run locally:
    To run the code locally there are three sections that need to be uncommented.
        1.) In app.js uncomment the *** section noted and then comment out the
            last app.listen function that is currently being used.
