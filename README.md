@@ -4,7 +4,7 @@ Bluemix provides a Node.js starter application as a template so that you can
 add your code and push the changes back to the Bluemix environment. This template
 along with the bootstrap blog template was combined to create the application.
 
-# Changes needed to get the app running locally
+# Getting the app to running locally
 
 * Need to get your Facebook Group's ID:
    The group ID value is retrieved from the home page of the Facebook group
