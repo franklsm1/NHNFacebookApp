@@ -20,7 +20,7 @@ Facebook Group and show them in a blog style layout on a webpage.
    from the app's Dashboard.
    *No coding required, just creating the app in Facebook gives you the two values*
 
-   Link to get personal token: https://developers.facebook.com/tools/explorer/488381674659676/?method=GET&path=me%3Ffields%3Did%2Cname
+   Link to get personal token: https://developers.facebook.com/tools/explorer/488381674659676/?method=GET&path=me%3Ffields%3Did%2Cname Make sure to check the user_events and user_managed_group permissions when getting the access token.
 
    To get the Group token use the following link and plug in your three values:
    https://graph.facebook.com/oauth/access_token?client_id=<APP_ID>&client_secret=<APP_SECRET>&grant_type=fb_exchange_token&fb_exchange_token=<PERSONAL_TOKEN>
