@@ -28,7 +28,8 @@ Facebook Group and show them in a blog style layout on a webpage.
    The value given from the URL is the token which will last 60 days before needing
    to renew it (takes less then a minute once you have the APP_ID and APP_SECRET).
 * Plug both the group ID and the token into app.js and your app should run.
-* Also in the index.html and events.html file the name of the group, the about
+
+* In the index.html and events.html file the name of the group, the about
   section and a short page description are hard coded in. To match up with the group
   you are pulling from you may want to update those values (they are plain text).
      
